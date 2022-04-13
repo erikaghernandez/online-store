@@ -11,7 +11,7 @@
 
   <main>
     <section id="logo-container">
-      <img id="logo" src="../assets/img/logo.png" />
+      <img id="logo" src="../assets/img/logo.png" alt="Logo-image"/>
     </section>
   
     <section id="container">
@@ -24,22 +24,28 @@
           <li class="radio">
             <input type="radio" id="shipping-method1" name="shipping-method" value="standard" required>
             <label for="shipping-method1">
-              <p>Standard</p>
-              <p>7-DAY</p>
+              <ul>
+                <li>Standard</li>
+                <li>7-DAY</li>
+            </ul>
             </label>
           </li>
           <li class="radio">
             <input type="radio" id="shipping-method2" name="shipping-method" value="fast">
             <label for="shipping-method2">
-              <p>Fast</p>
-              <p>3-DAY</p>
+              <ul>
+                <li>Fast</li>
+                <li>3-DAY</li>
+            </ul>
             </label>
           </li>
           <li class="radio">
             <input type="radio" id="shipping-method3" name="shipping-method" value="premium">
             <label for="shipping-method3">
-              <p>Premium</p>
-              <p>Same-Day</p>
+              <ul>
+                <li>Premium</li>
+                <li>Same-Day</li>
+            </ul>
             </label>
           </li>
         </ul>
@@ -50,9 +56,7 @@
             </a>
           </li>
           <li>
-            <a href="../page2/">
               <input type="submit" id="continue-btn" value="Continue to payment" />
-            </a>
           </li>
         </ul>
       </form>
