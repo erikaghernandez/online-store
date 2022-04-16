@@ -463,4 +463,9 @@ a{
     
   }
     
+#prod img {
+    height: 200px;
+    width: 230px;
+    table-layout: auto;
+}
 
