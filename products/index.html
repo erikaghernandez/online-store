@@ -1,154 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Products</title>
-  <link rel="stylesheet" href="../assets/css/screen.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/screen.css" type="text/css"/>
 </head>
 <body>
-  <main id ="content">
+  <main id="content">
+    <h1> Products: </h1>
     <form name ="store-items" id ="store-items" action="../contact" aria-labelledby="store-items">
-      <h1> Products: </h1>
-      <fieldset>
-        <ol id="product-list">
+        <fieldset name="cart-products">
+          <ol id="product-list">
 
-          <li>
-            <label for="blackhat">Black Hat</label>
+            <li>
+              <label for="black-hat">Black Hat</label>
+                <p>$9.99</p>
+                <ol class="product-picture">
+                  <li>
+                  <img src="../assets/img/black.png" alt="Picture of black Hat"/>
+                </li>
+                </ol>
+              <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
+            </li>
+
+            <li>
+            <label for="red-hat">Red Blazers Hat</label>
               <p>$9.99</p>
               <ol class="product-picture">
                 <li>
-                <img src="../assets/img/black.png" alt="Picture of black Hat"/>
+                <img src="../assets/img/red.png" alt="Picture of red Hat"/>
               </li>
               </ol>
-            <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-          </li>
+            <button class="add-button-product" type="button" name="product-two"> Add to cart </button>
+            </li>
 
           <li>
-          <label for="redhat">Red Blazers Hat</label>
+          <label for="white-hat">White Hat</label>
             <p>$9.99</p>
             <ol class="product-picture">
               <li>
-              <img src="../assets/img/red.png" alt="Picture of red Hat">
+              <img src="../assets/img/white.png" alt="Picture of white Hat"/>
             </li>
             </ol>
-          <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
+          <button class="add-button-product" type="button" name="product-three"> Add to cart </button>
           </li>
 
-        <li>
-        <label for="whitehat">White Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-            <img src="../assets/img/white.png" alt="Picture of white Hat">
+          <li>
+          <label for="blue-hat">Blue Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+              <img src="../assets/img/blue.png" alt="Picture of blue Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-four"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="bluehat">Blue Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-            <img src="../assets/img/blue.png" alt="Picture of blue Hat">
+          <li>
+          <label for="fishers-hat">Fishers Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/fishers.png" alt="Picture of Fishers Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-five"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="fishershat">Fishers Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/fishers.png" alt="Picture of Fishers Hat">
+          <li>
+          <label for="cowboy-hat">Cowboy Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/Cowboy-Hat.png" alt="Picture of Cowboy Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-six"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="cowboyhat">Cowboy Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/Cowboy-Hat.png" alt="Picture of Cowboy Hat">
+          <li>
+          <label for="aviators-hat">Aviators Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/Aviators-Hat.png" alt="Picture of Aviators Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-seven"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="aviatorshat">Aviators Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/Aviators-Hat.png" alt="Picture of Aviators Hat">
+          <li>
+          <label for="russian-hat">Russian Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/Russian-Hat.png" alt="Picture of Russian Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-eight"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="russianhat">Russian Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/Russian-Hat.png" alt="Picture of Russian Hat">
+          <li>
+          <label for="batman-hat">Batman Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/Batman-Hat.png" alt="Picture of Batman Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-nine"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="batmanhat">Batman Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/Batman-Hat.png" alt="Picture of Batman Hat">
+          <li>
+          <label for="spiderman-hat">Spiderman Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/Spiderman-Hat.png" alt="Picture of Spiderman Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-ten"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="spidermanhat">Spiderman Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/Spiderman-Hat.png" alt="Picture of Spiderman Hat">
+          <li>
+          <label for="avengers-hat">Avengers Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/Avengers-Hat.png" alt="Picture of Avengers Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-eleven"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
 
-        <li>
-        <label for="avengershat">Avengers Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/Avengers-Hat.png" alt="Picture of Avengers Hat">
+          <li>
+          <label for="ironman-hat">Iron Man Hat</label>
+            <p>$9.99</p>
+            <ol class="product-picture">
+              <li>
+                <img src="../assets/img/Iron-man-Hat.png" alt="Picture of Iron man Hat"/>
+            </li>
+            </ol>
+          <button class="add-button-product" type="button" name="product-twelve"> Add to cart </button>
           </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
-
-        <li>
-        <label for="ironmanhat">Iron Man Hat</label>
-          <p>$9.99</p>
-          <ol class="product-picture">
-            <li>
-              <img src="../assets/img/Iron-man-Hat.png" alt="Picture of Iron man Hat">
-          </li>
-          </ol>
-        <button class="add-button-product" type="button" name="product-one"> Add to cart </button>
-        </li>
-      </ol>
-    </fieldset>
-    <input type="submit" id="sumbit" value="Continue"/>
+        </ol>
+      </fieldset>
+      <input type="submit" id="sumbit" value="Continue"/>
     </form>
-  <script type="text/javascript" src="../assets/js/index.js"></script>
+  </main>
+<script type="text/javascript" src="../assets/js/index.js"></script>
 </body>
 </html>
