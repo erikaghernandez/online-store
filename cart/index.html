@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/assets/css/screen.css">
+</head>
+<body>
+    <aside id="cart">
+        <h2>Your Cart</h2>
+        <form id="cart-form" name="cart-form" action="#null">
+       
+          -->
+          <h3 class="status">Your cart is empty.</h3>
+          <ol id="cart-items">
+    
+            <template id="line-item">
+              <li data-id="" data-quantity="" data-price="">
+                <ul>
+                  <li class="name"><b>Item:</b> <output></output></li>
+                  <li class="quantity"><b>Count:</b> <output></output></li>
+                  <li class="price"><b>Unit Price:</b> <output></output></li>
+                  <li class="total"><b>Unit Total:</b> <output></output></li>
+                  <input type="hidden" name="item" value="[data-id],[data-quantity]" />
+                </ul>
+              </li>
+            </template>
+  
+          </ol>
+          <ol id="cart-calculations">
+            <li id="cart-totals">
+              <ul>
+                <li class="name">Cart Total</li>
+                <li class="total" data-cart-total="0"><output>$0.00</output></li>
+              </ul>
+            </li>
+          </ol>
+          <button type="submit">Checkout</button>
+        </form>
+      </aside>
+</body>
+</html>
