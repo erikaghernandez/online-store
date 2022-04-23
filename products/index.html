@@ -1,180 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Products</title>
-  <link rel="stylesheet" href="../assets/css/screen.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../assets/css/screen.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
-
-  <section id="header">
-    <main>
-        <section id="logo-container">
-            <img id="logo" src="../assets/img/logo.png" alt="Image of logo"/>
-        </section>
-
-        <section id="navbar">
-            <nav>
-                <ul>
-                    <li><a href="../index.html"> Home </a></li>
-                    <li><a href="../products/index.html">Products</a></li>
-                    <li><a href="../About/index.html">About</a></li>
-                    <li><a href="../contactUs/index.html">Contact</a></li>
-                </ul>
-            </nav>
-            <a href="./index.html"><img src="../assets/img/cart.png" alt="cart image"/></a>
-
     
-</section>
+    <header>
+        
+        <section class="nav container">
+            <a href="#" class="logo">X Brand</a>
+            
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            
+            <section class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                
+                <section class="cart-content">
 
+                </section>
+                
+                <section class="total">
+                    <section class="total-title">Total</section>
+                    <section class="total-price">$0</section>
+                </section>
+                
+                <button type="button" class="btn-buy">Buy Now</button>
+                
+                <i class='bx bx-x' id="close-cart"></i>
 
-  <main id="content">
-    <h1> Products: </h1>
-    <form name ="store-items" id ="store-items" action="../contact" aria-labelledby="store-items">
-        <fieldset name="cart-products">
-          <ol id="product-list">
+            </section>
+        </section>
+    </header>
+    
+    <section class="shop container">
+        <h2 class="section-title">Products</h2>
+        
+        <section class="shop-content">
+            <!-- Box 1 -->
+            <section class="product-box">
+                <img src="../assets/img/Avengers-Hat.png" alt="" class="product-img">
+                <h2 class="product-title">Avengers-Hat</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+            <!-- Box 2 -->
+            <section class="product-box">
+                <img src="../assets/img/Aviators-Hat.png" alt="" class="product-img">
+                <h2 class="product-title">Aviators-Hat</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+            <!-- Box 3 -->
+            <section class="product-box">
+                <img src="../assets/img/Batman-Hat.png" alt="" class="product-img">
+                <h2 class="product-title">Batman-Hat</h2>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+            <!-- Box 4 -->
+            <section class="product-box">
+                <img src="../assets/img/black.png" alt="" class="product-img">
+                <h2 class="product-title">Black-Hat</h2>
+                <span class="price">$24.04</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+            <!-- Box 5 -->
+            <section class="product-box">
+                <img src="../assets/img/blue.png" alt="" class="product-img">
+                <h2 class="product-title">Blue-Hat</h2>
+                <span class="price">$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+            <!-- Box 6 -->
+            <section class="product-box">
+                <img src="../assets/img/Cowboy-Hat.png" alt="" class="product-img">
+                <h2 class="product-title">Cowboy-Hat</h2>
+                <span class="price">$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+            <!-- Box 7 -->
+            <section class="product-box">
+                <img src="../assets/img/fishers.png" alt="" class="product-img">
+                <h2 class="product-title">fishers-Hat</h2>
+                <span class="price">$70</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+            <!-- Box 8 -->
+            <section class="product-box">
+                <img src="../assets/img/Iron-man-Hat.png" alt="" class="product-img">
+                <h2 class="product-title">Iron-man-Hat</h2>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
 
-            <li>
-              <label for="black-hat">Black Hat</label>
-                <p>$9.99</p>
-                <ol class="product-picture">
-                  <li>
-                  <img src="../assets/img/black.png" alt="Picture of black Hat"/>
-                </li>
-                </ol>
-              <button class="add-button-product" type="button" name="product-one"><a href="../shipping/index.html">Add to Cart</a>
-              
+            <section class="product-box">
+                <img src="../assets/img/Spiderman-Hat.png" alt="" class="product-img">
+                <h2 class="product-title">Spiderman-Hat</h2>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
 
-            </li>
+            <section class="product-box">
+              <img src="../assets/img/Russian-Hat.png" alt="" class="product-img">
+              <h2 class="product-title">Russian-Hat</h2>
+              <span class="price">$45</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
 
-            <li>
-            <label for="red-hat">Red Blazers Hat</label>
-              <p>$9.99</p>
-              <ol class="product-picture">
-                <li>
-                <img src="../assets/img/red.png" alt="Picture of red Hat"/>
-              </li>
-              </ol>
-            <button class="add-button-product" type="button" name="product-two"><a href="../shipping/index.html">Add to Cart</a>
-            </li>
-
-          <li>
-          <label for="white-hat">White Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-              <img src="../assets/img/white.png" alt="Picture of white Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-three"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="blue-hat">Blue Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-              <img src="../assets/img/blue.png" alt="Picture of blue Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-four"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="fishers-hat">Fishers Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/fishers.png" alt="Picture of Fishers Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-five"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="cowboy-hat">Cowboy Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/Cowboy-Hat.png" alt="Picture of Cowboy Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-six"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="aviators-hat">Aviators Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/Aviators-Hat.png" alt="Picture of Aviators Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-seven"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="russian-hat">Russian Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/Russian-Hat.png" alt="Picture of Russian Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-eight"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="batman-hat">Batman Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/Batman-Hat.png" alt="Picture of Batman Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-nine"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="spiderman-hat">Spiderman Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/Spiderman-Hat.png" alt="Picture of Spiderman Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-ten"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="avengers-hat">Avengers Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/Avengers-Hat.png" alt="Picture of Avengers Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-eleven"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-
-          <li>
-          <label for="ironman-hat">Iron Man Hat</label>
-            <p>$9.99</p>
-            <ol class="product-picture">
-              <li>
-                <img src="../assets/img/Iron-man-Hat.png" alt="Picture of Iron man Hat"/>
-            </li>
-            </ol>
-          <button class="add-button-product" type="button" name="product-twelve"><a href="../shipping/index.html">Add to Cart</a>
-          </li>
-        </ol>
-      </fieldset>
-      <input type="submit" id="sumbit" value="Continue"/>
-    </form>
-  </main>
-<script type="text/javascript" src="../assets/js/index.js"></script>
+            <section class="product-box">
+              <img src="../assets/img/white.png" alt="" class="product-img">
+              <h2 class="product-title">white-Hat</h2>
+              <span class="price">$45</span>
+              <i class='bx bx-shopping-bag add-cart'></i>
+            </section>
+        </section>
+    </section>
+    
+    <script src="../assets/js/index.js"></script>
+    
 </body>
 </html>
