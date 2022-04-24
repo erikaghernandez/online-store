@@ -46,12 +46,13 @@ function ready() {
 }
 // Buy Button
 function buyButtonClicked() {
-  alert("Your Order is placed");
-  var cartContent = document.getElementsByClassName("cart-content")[0];
-  while (cartContent.hasChildNodes()) {
-    cartContent.removeChild(cartContent.firstChild);
-  }
-  updatetotal();
+  // alert("Your Order is placed");
+  // var cartContent = document.getElementsByClassName("cart-content")[0];
+  // while (cartContent.hasChildNodes()) {
+  //   cartContent.removeChild(cartContent.firstChild);
+  // }
+  // updatetotal();
+  window.location.href="../shipping/index.html"
 }
 
 // Reomve Items From Cart
